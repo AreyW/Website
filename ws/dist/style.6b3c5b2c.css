@@ -1,0 +1,174 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+img {vertical-align: middle;}
+#navigation{
+    background: #717171;
+}
+#navigation a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    position: sticky;
+top:0;
+}
+
+#navigation > ul {
+list-style: none; 
+margin: 0; 
+padding: 30px;  
+padding-left: 0px;
+display: flex;
+justify-content: space-around;
+position: sticky;
+top:0;
+}
+
+
+#header{
+    background: lightblue;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#content{
+    padding:200px;
+    background-image: url(28-5-18-5553.fd37b106.jpg)
+}
+#content > h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#content > h4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#content > h5{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid black;
+}
+#sub{
+padding:70px;
+margin: 50px;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid black; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: black;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 20px;
+}
+#footer{
+    background: black;
+}
+#footer > ol {
+    list-style: none; 
+    margin: 0; 
+    padding: 30px;  
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    top:0;
+    }
+#footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+top:0;
+}
+
+
+.fa-envelope:before{
+    font-size: 30px;
+    color:white;
+}
+.fa-instagram:before {
+    font-size: 30px;
+ 
+}
+
+.fa-facebook:before{
+    font-size: 30px;
+   
+}
+
+.fa-home:before {
+   
+    font-size: 30px;
+}
+.fa-shopping-bag:before{
+    font-size: 30px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

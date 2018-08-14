@@ -125,7 +125,7 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
-},{}],27:[function(require,module,exports) {
+},{}],17:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -154,7 +154,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61195' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '62056' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -295,5 +295,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[27,26], null)
+},{}]},{},[17,26], null)
 //# sourceMappingURL=/website.022a22dd.map

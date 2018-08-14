@@ -3,10 +3,25 @@ body {font-family: Verdana, sans-serif;}
 
 img {vertical-align: middle;}
 
-#start > h2{
-    border-bottom:1px;
-    display: inline-block;
+#start > img{
+    margin-left: 450px;
+    width: 75px;
 }
+#start > h1{
+    margin-right: 650px;
+    margin-bottom: 2px;
+    float: right;
+    font-size: 60px;
+    font-family: 'Clicker Script', cursive;
+}
+
+#start > h2{
+    margin-top: 0%;
+    font-size: 25px;
+    margin-left: 650px;
+    font-family: 'Playfair Display', serif;
+}
+
 #navigation{
     position: sticky;
     background:black;
@@ -16,6 +31,7 @@ img {vertical-align: middle;}
     text-decoration: none;
     font-size: 20px;
 top:0;
+margin-right:20px;
 }
 
 #navigation > ul {
@@ -26,16 +42,23 @@ padding-left: 0px;
 display: flex;
 justify-content: space-around;
 top:0;
+font-family: 'Lobster', cursive;
 }
 
 
 #header{
     background: lightblue;
 } 
+
+
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .numbertext {
@@ -73,26 +96,32 @@ border: 3px solid black;
 }
 #content{
     padding:200px;
-    background-image: url(./28-5-18-5553.jpg)
+    background-image: url(./28-5-18-5553.jpg);
+    background-repeat: no-repeat;
+    background-size: 1333px 690.34px;
+    text-align: center;
+    justify-content: center;
 }
 #content > h1{
     display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
     text-align: center;
     justify-content: center;
 }
 #content > h4{
     display: flex;
-    text-align: center;
-    justify-content: center;
-    line-height: 30px;
+    line-height: 35px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:normal
 }
 #content > h5{
     display: flex;
     text-align: center;
     justify-content: center;
-    color:black;
 }
-#content > a{
+#content > h5 > a{
+    color:black;
     text-decoration: none;
 }
 #sub{
@@ -104,13 +133,16 @@ margin: 50px;
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: serif;
 }
 #sub > h3{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight:normal;
+    font-family: serif;
 }
 
 #sub > input[type=submit] {
@@ -120,6 +152,9 @@ margin: 50px;
     border-radius: 4px;
     cursor: pointer;
 }
+label{
+    font-family: 'Old Standard TT', serif;
+}
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;   
@@ -128,7 +163,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: vertical;
 }
 
 input[type=submit] {
@@ -153,44 +188,51 @@ input[type=submit]:hover {
     background: black;
     padding:5%
 }
+
 #footer > ol {
     list-style: none; 
-    margin: 0; 
-    padding: 30px;  
+    margin: 0;   
     padding-left: 0px;
-    display: flex;
-    justify-content: space-around;
+    padding-bottom: 16px;
     top:0;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     }
 #footer a{
     color:white;
     text-decoration: none;
-    font-size: 20px;
-top:0;
+    font-size: 15px;
+    top:0;
+    font-family: serif;
+}
+#footer > p{
+    text-align: center;
+    justify-content: center;
 }
 
 
-.fa-envelope:before{
-    font-size: 30px;
-    color:white;
-}
+
 .fa-instagram:before {
-    font-size: 30px;
- 
+    font-size: 20px;
+    margin-left: 15px;
 }
 
 .fa-facebook:before{
-    font-size: 30px;
-   
+    font-size: 20px;
+    margin-left: 15px;
 }
 
-.fa-home:before {
-   
-    font-size: 30px;
+.fa-pinterest-square{
+    font-size: 20px;
+    margin-left: 15px;
 }
 .fa-shopping-bag:before{
-    font-size: 30px;
+    font-size: 25px;
+    color:white;
 }
+
 
 @-webkit-keyframes fade {
   from {opacity: .4} 

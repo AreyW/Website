@@ -1,3 +1,12 @@
+body{
+    background:lightblue;
+    margin: 0%;
+}
+#start{
+    background: white;
+    margin: 0%;
+    padding:30px;
+}
 #start > img{
     margin-left: 450px;
     width: 75px;
@@ -39,10 +48,56 @@ justify-content: space-around;
 top:0;
 font-family: 'Lobster', cursive;
 }
-.shop > img{
-width: 18%
-
+#head > p{
+    border: none;
+    background: black;
+    padding: 60px;
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:50px;
+    color: white;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row img{
+    width: 40%;
+    border: 2px solid black;
+}
+.row{
+    color: black;
+    background: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top:30px;
+}
+.row p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 3px solid black;
+    margin-top: 20px;
+}
+
 #footer{
     background: black;
     padding:5%
@@ -76,16 +131,19 @@ width: 18%
 .fa-instagram:before {
     font-size: 20px;
     margin-left: 15px;
+    color: white;
 }
 
 .fa-facebook:before{
     font-size: 20px;
     margin-left: 15px;
+    color: white;
 }
 
 .fa-pinterest-square{
     font-size: 20px;
     margin-left: 15px;
+    color: white;
 }
 .fa-shopping-bag:before{
     font-size: 25px;

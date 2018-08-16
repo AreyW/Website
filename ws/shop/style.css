@@ -65,15 +65,15 @@ font-family: 'Lobster', cursive;
     box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 400px; /* Should be removed. Only for demonstration */
+    height: 400px; 
 }
 
-/* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
@@ -94,10 +94,12 @@ font-family: 'Lobster', cursive;
 .row p{
     padding-bottom: 10px;
     padding-top: 10px;
-    border-top: 3px solid black;
     margin-top: 20px;
 }
-
+hr{
+    width: 50%;
+    color: black;
+}
 #footer{
     background: black;
     padding:5%
